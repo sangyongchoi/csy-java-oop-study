@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="717d33c4-0a0a-475d-84ee-7f149b774382" name="Default Changelist" comment="" />
+    <list default="true" id="717d33c4-0a0a-475d-84ee-7f149b774382" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BankStatementCSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BankStatementCSVParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BankTransactionAnalyzerSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BankTransactionAnalyzerSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BankStatementCSVParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BankStatementCSVParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BankTransactionAnalyzerSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BankTransactionAnalyzerSimple.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,17 +20,39 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hCesuePD884UkySlcI7MVuWU0O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../book/real-java-software-develop/Real-World-Software-Development" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Bad" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -35,7 +66,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BadBankTransactionAnalyzerSimple">
+    <configuration name="BadBankTransactionAnalyzerSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bad.BadBankTransactionAnalyzerSimple" />
+      <module name="oop-study" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BankTransactionAnalyzerSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BankTransactionAnalyzerSimple" />
       <module name="oop-study" />
@@ -43,8 +81,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BankTransactionAnalyzerSimpleTest.shouldParseOneCorrectLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop-study" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BankTransactionAnalyzerSimpleTest" />
+      <option name="METHOD_NAME" value="shouldParseOneCorrectLine" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BadBankTransactionAnalyzerSimple" />
+        <item itemvalue="JUnit.BankTransactionAnalyzerSimpleTest.shouldParseOneCorrectLine" />
         <item itemvalue="Application.BankTransactionAnalyzerSimple" />
       </list>
     </recent_temporary>
@@ -60,11 +110,25 @@
       <option name="presentableId" value="Default" />
       <updated>1599519711831</updated>
       <workItem from="1599519714722" duration="2805000" />
-      <workItem from="1599522935342" duration="1570000" />
+      <workItem from="1599522935342" duration="3515000" />
+      <workItem from="1599780627727" duration="9563000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
