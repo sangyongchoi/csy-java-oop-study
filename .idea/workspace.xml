@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="717d33c4-0a0a-475d-84ee-7f149b774382" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BankStatementCSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BankStatementCSVParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BankTransactionAnalyzerSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BankTransactionAnalyzerSimple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BankStatementCSVParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BankStatementCSVParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BankTransactionAnalyzerSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BankTransactionAnalyzerSimple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BankStatementProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BankStatementProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BankTransactionAnalyzerSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BankTransactionAnalyzerSimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainApplicationTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -74,17 +70,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankTransactionAnalyzerSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BankTransactionAnalyzerSimple" />
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainApplication" />
       <module name="oop-study" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankTransactionAnalyzerSimpleTest.shouldParseOneCorrectLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainApplicationTest.shouldParseOneCorrectLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop-study" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BankTransactionAnalyzerSimpleTest" />
+      <option name="MAIN_CLASS_NAME" value="MainApplicationTest" />
       <option name="METHOD_NAME" value="shouldParseOneCorrectLine" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -94,8 +90,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.BadBankTransactionAnalyzerSimple" />
-        <item itemvalue="JUnit.BankTransactionAnalyzerSimpleTest.shouldParseOneCorrectLine" />
-        <item itemvalue="Application.BankTransactionAnalyzerSimple" />
+        <item itemvalue="JUnit.MainApplicationTest.shouldParseOneCorrectLine" />
+        <item itemvalue="Application.MainApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +107,7 @@
       <updated>1599519711831</updated>
       <workItem from="1599519714722" duration="2805000" />
       <workItem from="1599522935342" duration="3515000" />
-      <workItem from="1599780627727" duration="9563000" />
+      <workItem from="1599780627727" duration="15668000" />
     </task>
     <servers />
   </component>

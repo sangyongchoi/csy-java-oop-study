@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.time.LocalDate;
 import java.time.Month;
 
-class BankTransactionAnalyzerSimpleTest {
+class MainApplicationTest {
     private final BankStatementParser bankStatementParser = new BankStatementCSVParser();
 
     @Test

@@ -1,4 +1,5 @@
 import java.time.Month;
+import java.util.ArrayList;
 import java.util.List;
 
 public class BankStatementProcessor {
@@ -9,30 +10,44 @@ public class BankStatementProcessor {
     }
 
     public double calculateTotalAmount(){
-        double total = 0d;
-        for(final BankTransaction bankTransaction : bankTransactions){
-            total += bankTransaction.getAmount();
-        }
-        return total;
+        return summarizeTransactions((acc, bankTransaction) -> acc + bankTransaction.getAmount());
     }
 
     public double calculateTotalInMonth(final Month month){
-        double total = 0d;
-        for(final BankTransaction bankTransaction : bankTransactions){
-            if(bankTransaction.getDate().getMonth() == month) {
-                total += bankTransaction.getAmount();
-            }
-        }
-        return total;
+        return summarizeTransactions((acc, bankTransaction) ->
+                bankTransaction.getDate().getMonth() == month ? acc + bankTransaction.getAmount() : acc);
     }
 
     public double calculateTotalForCategory(final String category){
-        double total = 0d;
+        return summarizeTransactions((acc, bankTransaction) ->
+                bankTransaction.getDescription() == category ? acc + bankTransaction.getAmount()  : acc);
+    }
+
+    public double summarizeTransactions(final BankTransactionSummarizer bankTransactionSummarizer){
+        double result = 0;
+        for(final BankTransaction bankTransaction :  bankTransactions){
+            result = bankTransactionSummarizer.summarize(result, bankTransaction);
+        }
+
+        return result;
+    }
+
+    public List<BankTransaction> findTransaction(BankTransactionFilter filter){
+        final List<BankTransaction> result = new ArrayList<>();
         for(final BankTransaction bankTransaction : bankTransactions){
-            if(bankTransaction.getDescription() == category) {
-                total += bankTransaction.getAmount();
+            if(filter.test(bankTransaction)){
+                result.add(bankTransaction);
             }
         }
-        return total;
+
+        return result;
+    }
+
+    public List<BankTransaction> findTransactionsGreaterThanEqual(final int amount){
+        return findTransaction(bankTransaction -> bankTransaction.getAmount() >= amount);
+    }
+
+    public List<BankTransaction> findTransactionsInMonth(final Month month){
+        return findTransaction(bankTransaction -> bankTransaction.getDate().getMonth() == month);
     }
 }
